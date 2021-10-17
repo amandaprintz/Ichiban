@@ -1,0 +1,36 @@
+body {
+  background-color: #F5F5EE;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+
+@font-face {
+  font-family: "Jost";
+  src: url(Jost-VariableFont_wght.ttf);
+}
+
+
+@font-face {
+  font-family: "JosefinSans";
+  src: url(JosefinSans-VariableFont_wght.ttf);
+}
+
+
+h1 {
+  font-family: "Jost";
+}
+
+
+.header {
+  padding: 5px; /* some padding */
+  text-align: center;
+  background: white;
+  color: rgb(45, 32, 32);
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/* Increase the font size of the <h1> element */
+.header h1 {
+  font-size: 40px;
+}
