@@ -22,25 +22,25 @@
         <article>
             <img src="images/sashimi.jpeg" alt="Kristen Bell" />
             <h2>food</h2>
-            <p>Anna</p>
+            <p>this is about sashimi</p>
         </article>
 
         <article>
             <img src="images/gyoza.jpeg" alt="Idina Menzel" />
             <h2>food</h2>
-            <p>Elsa</p>
+            <p>this is about gyoza</p>
         </article>
 
         <article>
             <img src="images/chef.jpeg" alt="Jonathan Groff" />
             <h2>more food</h2>
-            <p>Kristoff</p>
+            <p>this is about restaurany</p>
         </article>
 
         <article>
             <img src="images/matcha.jpeg" alt="Josh Gad" />
-            <h2>moooooore food</h2>
-            <p>Olaf</p>
+            <h2>mooore food</h2>
+            <p>about drinks?</p>
         </article>
 
     </main>

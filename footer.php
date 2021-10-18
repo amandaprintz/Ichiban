@@ -1,1 +1,1 @@
-<p> <?php echo date("Y"); ?> Mandi :) </p>
+<?php echo date("Y"); ?> Mandi :)
