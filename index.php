@@ -1,53 +1,39 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php
 
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta property="og:title" content="My first project" />
-    <meta property="og:description" content="This is my first HTML class" />
-    <title>First assignment</title>
-    <link rel="stylesheet" href="style.css">
+require __DIR__ . '/data.php';
+require __DIR__ . '/header.php';
 
-</head>
+?>
 
-<body>
+<main>
 
-    <div class="header">
-        <h1>My Website</h1>
-        <p>What am I doing :(</p>
-    </div>
+    <?php foreach ($articles as $article) :
+        $image = $article['image'];
+        $info = $article['info'];
+        $description = $article['description'];
+    ?>
 
-    <main>
-        <article>
-            <img src="images/sashimi.jpeg" alt="Kristen Bell" />
-            <h2>food</h2>
-            <p>this is about sashimi</p>
-        </article>
 
-        <article>
-            <img src="images/gyoza.jpeg" alt="Idina Menzel" />
-            <h2>food</h2>
-            <p>this is about gyoza</p>
-        </article>
+        <div class="container">
+            <div class="grid-item">
+                <ul>
+                    <p class="image"><img src="<?php echo $image; ?>" width="200px">
+                    <p class="info"><?php echo $article['info'] ?></p>
+                    <p class="description"><?php echo $article['description'] ?></p>
+                    </a>
 
-        <article>
-            <img src="images/chef.jpeg" alt="Jonathan Groff" />
-            <h2>more food</h2>
-            <p>this is about restaurany</p>
-        </article>
+                </ul>
+            </div>
+        </div>
+</main>
 
-        <article>
-            <img src="images/matcha.jpeg" alt="Josh Gad" />
-            <h2>mooore food</h2>
-            <p>about drinks?</p>
-        </article>
 
-    </main>
-
+<?php endforeach; ?>
 </body>
 
 </html>
 
+<?php
 
-<?php require __DIR__ . '/footer.php' ?>
+require __DIR__ . '/footer.php';
+?>
