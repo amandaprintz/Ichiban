@@ -6,12 +6,12 @@ $articles = [
     [
         'image' => "/images/sashimi.jpeg",
         'info' => 'Sushi',
-        'description' => 'a variety of tasting menus and freshly made sushi pieces dishes'
+        'description' => 'a variety of tasting menus'
     ],
     [
         'image' => "/images/gyoza.jpeg",
         'info' => 'Gyoza',
-        'description' => 'explore gyozas and dim sum menus'
+        'description' => 'explore gyozas and dim sum'
     ],
     [
         'image' => "/images/chef.jpeg",

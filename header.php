@@ -12,7 +12,7 @@
 <body>
     <nav>
         <ul>
-            <a href="">about</a>
+            <a href="http://localhost:8000/about.php">about</a>
             <a href="#">menu</a>
             <a href="">contact</a>
         </ul>

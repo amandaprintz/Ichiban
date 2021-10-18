@@ -2,9 +2,10 @@
   box-sizing: border-box;
 }
 
-@media screen and (max-width: 2000px) {
+@media screen and (min-width: 768px) {
   body {
     background-color: #F5F5EE;
+  }
   }
 
   @font-face {
@@ -41,3 +42,16 @@ p {
   align-items: left;
   color: rgb(45, 32, 32);
 }
+
+.container {
+  display: flex;
+  justify-content: center;
+
+}
+
+button {
+  background-color: rgb(169, 203, 169);
+  width: 200px;
+  height: 20px;
+}
+
