@@ -1,0 +1,39 @@
+
+@font-face {
+  font-family: "Jost";
+  src: url(Jost-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: "JosefinSans";
+  src: url(JosefinSans-VariableFont_wght.ttf);
+}
+
+
+h1 {
+  font-family: "Jost";
+}
+
+h2 {
+  font-family: "Jost";
+}
+
+p {
+  font-family: "Jost";
+  size: 16px;
+  font-weight: light;
+}
+
+.countdown {
+  font-size: 40px;
+}
+
+.info {
+  color: rgb(126, 126, 109);
+  font-weight: 200;
+}
+
+footer {
+  text-align: center;
+  font-family: "Jost";
+}

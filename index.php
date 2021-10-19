@@ -5,38 +5,49 @@ require __DIR__ . '/header.php';
 require __DIR__ . '/functions.php';
 ?>
 
-<main>
+<body>
+    <main>
 
-    <p class="countdown"><?php
-                            echo "Grand opening in " . $d2 . " days!"; ?></p>
-
-
-    <?php foreach ($articles as $article) :
-        $image = $article['image'];
-        $info = $article['info'];
-        $description = $article['description'];
-    ?>
+        <p class="countdown"><?php
+                                echo "Grand opening in " . $d2 . " days!"; ?></p>
 
 
-        <div class="container">
-            <div class="grid-item">
-                <p class="image"><img src="<?php echo $image; ?>" width="200px">
-                <p class="info"><?php echo $article['info'] ?></p>
-                <p class="description"><?php echo $article['description'] ?></p>
-                </a>
+        <?php foreach ($articles as $article) :
+            $image = $article['image'];
+            $info = $article['info'];
+            $description = $article['description'];
+        ?>
+
+
+            <div class="container">
+                <div class="grid-item">
+                    <p class="image"><img src="<?php echo $image; ?>" width="200px">
+                    <p class="info"><?php echo $article['info'] ?></p>
+                    <p class="description"><?php echo $article['description'] ?></p>
+                    </a>
+                </div>
             </div>
-        </div>
-</main>
-
-
-<?php endforeach; ?>
-
-<button>
-    Book a table
-</button>
 
 
 
+        <?php endforeach; ?>
+
+    </main>
+    <br>
+    <br>
+    <br>
+
+    <button>
+        book a table
+    </button>
+
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
 
 
 </body>

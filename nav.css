@@ -1,17 +1,38 @@
 
 
 nav {
-    max-width: 100%;
-    overflow-x: hidden;
-    padding-right: 5%;
-    text-align: right;
-    font-family: "Jost";
-    color: #443434;
+  background-color:white;
+  padding-right: 40px;
+  padding-left: 40px;
+  text-align: right;
+  overflow-x: hidden;
+  color: #443434;
+}
+
+a {
+  color: #443434;
+  font-family: "Jost";
+  font-weight: 100;
+  font-size: 30px;
+  text-decoration: none;
+  text-transform: lowercase;
+  float: right;
+  padding: 0.5em;
 
 }
 
-footer {
+.header {
   text-align: center;
-  font-family: "Jost";
+  align-items: left;
+  color: rgb(45, 32, 32);
+
+}
+
+.header-image {
+  display: flex;
+  align-items: flex-end;
+
+
+
 }
 

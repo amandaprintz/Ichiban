@@ -6,19 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="typography.css">
     <title>ICHIBAN</title>
 </head>
 
-<body>
-    <nav>
-        <ul>
-            <a href="http://localhost:8000/about.php">about</a>
-            <a href="#">menu</a>
-            <a href="">contact</a>
-        </ul>
-    </nav>
+<nav>
+    <ul>
+        <a href="http://localhost:8000/about.php">about</a>
+        <a href="#">menu</a>
+        <a href="">contact</a>
+    </ul>
 
-    <div class="header">
-        <div class='header-image'><img src="images/mylogo.png"></div>
+    <div class='header-image'><img src="images/mylogo.png"></div>
+
+</nav>
+
+<div class="header">
+
+
+
+
+
+
 
 </html>
