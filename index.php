@@ -2,10 +2,14 @@
 
 require __DIR__ . '/data.php';
 require __DIR__ . '/header.php';
-
+require __DIR__ . '/functions.php';
 ?>
 
 <main>
+
+    <p class="countdown"><?php
+                            echo "Grand opening in " . $d2 . " days!"; ?></p>
+
 
     <?php foreach ($articles as $article) :
         $image = $article['image'];
