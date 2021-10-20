@@ -1,1 +1,5 @@
-<p> <?php echo date("Y"); ?> ICHIBAN </p>
+<div class="footer">
+
+    <p> <?php echo date("Y"); ?> ICHIBAN </p>
+
+</div>

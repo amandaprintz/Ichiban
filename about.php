@@ -15,6 +15,12 @@ require __DIR__ . '/header.php';
 
 </head>
 
-<body></body>
+<body>
+
+
+    <div class="box"><img src="images/bwstaff.jpeg"></class>
+
+    </div>
+</body>
 
 </html>

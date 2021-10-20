@@ -32,7 +32,11 @@ require __DIR__ . '/functions.php';
 
         <?php endforeach; ?>
 
+
+
+
     </main>
+    <br>
     <br>
     <br>
     <br>
@@ -41,14 +45,13 @@ require __DIR__ . '/functions.php';
         book a table
     </button>
 
-
-    <br>
-    <br>
-    <br>
     <br>
     <br>
     <br>
 
+    <br>
+    <br>
+    <br>
 
 </body>
 

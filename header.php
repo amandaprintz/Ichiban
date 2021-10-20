@@ -17,12 +17,11 @@
         <a href="">contact</a>
     </ul>
 
-    <div class='header-image'><img src="images/mylogo.png"></div>
+    <div class='header-image'><img src="images/logo.jpg"></div>
 
 </nav>
 
 <div class="header">
-
 
 
 
