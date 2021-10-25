@@ -44,6 +44,13 @@ body {
     color: #443434;
   }
 
+  .footer {
+    background-color: white;
+    width: 100%;
+    overflow-x: hidden;
+    color: #443434;
+  }
+
   /* about-page */
   .image-parent {
     display: flex;
@@ -87,9 +94,10 @@ body {
     background-color: rgb(243, 243, 233);
     margin: 10px 20px;
     padding: 20px;
-    width: 100%;
+    max-width: 100%;
     float: right;
   }
+
   #option2 {
     background-color: rgb(243, 243, 233);
     margin: 10px 20px;
@@ -168,6 +176,43 @@ body {
     max-width: 250px;
     float: right;
   }
+
+  /*menu-page */
+
+  .options {
+    margin: auto;
+    max-width: fit-content;
+    /*The width you want it to be when centered*/
+    /* min-width works too */
+  }
+
+  #option1 {
+    margin: 10px 20px;
+    padding: 20px;
+    max-width: 300px;
+    float: right;
+  }
+
+  #price1 {
+    margin: 10px 20px;
+    padding: 20px;
+    max-width: 300px;
+    float: right;
+  }
+
+  #option2 {
+    margin: 10px 20px;
+    padding: 20px;
+    max-width: 300px;
+    float: right;
+  }
+
+  #price2 {
+    margin: 10px 20px;
+    padding: 20px;
+    max-width: 300px;
+    float: right;
+  }
 }
 
 @media screen and (min-width: 1025px) {
@@ -229,7 +274,45 @@ body {
     float: right;
   }
 
+  /*menu-page */
+
+  .options {
+    margin: auto;
+    max-width: fit-content;
+    /*The width you want it to be when centered*/
+    /* min-width works too */
+  }
+
+  #option1 {
+    margin: 10px 20px;
+    padding: 20px;
+    max-width: 400px;
+    float: right;
+  }
+
+  #price1 {
+    margin: 10px 20px;
+    padding: 20px;
+    max-width: 400px;
+    float: right;
+  }
+
+  #option2 {
+    margin: 10px 20px;
+    padding: 20px;
+    max-width: 400px;
+    float: right;
+  }
+
+  #price2 {
+    margin: 10px 20px;
+    padding: 20px;
+    max-width: 400px;
+    float: right;
+  }
+
   .footer {
+    width: 100%;
     justify-content: center;
     justify-self: center;
   }

@@ -13,7 +13,7 @@
 <nav>
     <ul>
         <a href="http://localhost:8000/index.php">home</a>
-        <a href="">contact</a>
+        <a href="http://localhost:8000/contact.php">contact</a>
         <a href="http://localhost:8000/about.php">about</a>
         <a href="http://localhost:8000/menu.php">menu</a>
     </ul>

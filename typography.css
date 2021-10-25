@@ -52,12 +52,23 @@
     font-family: 'Jost';
     text-align: left;
   }
+
+  /*menu-page */
+  h1 {
+    font-size: 40px;
+    font-weight: 100;
+  }
 }
 
 @media screen and (min-width: 550px) {
   .wrapper {
     font-family: 'Jost';
     text-align: left;
+  }
+  /*menu-page */
+  h1 {
+    font-size: 40px;
+    font-weight: 100;
   }
 }
 
@@ -70,5 +81,12 @@
   .wrapper {
     font-family: 'Jost';
     text-align: left;
+  }
+
+  /*menu-page */
+
+  h1 {
+    font-size: 40px;
+    font-weight: 100;
   }
 }

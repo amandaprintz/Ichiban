@@ -24,14 +24,3 @@ $articles = [
         'description' => 'explore a variety of drinks'
     ],
 ];
-
-
-function openingHours(int $open, int $close): string
-{
-
-    return "We're open today from  $open - $close.";
-}
-
-$hours = openingHours(12, 01);
-
-/*printa sedan  <p><?php echo $hours; ?></p> */
