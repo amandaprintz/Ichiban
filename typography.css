@@ -1,40 +1,74 @@
-
 @font-face {
-  font-family: "Jost";
+  font-family: 'Jost';
   src: url(Jost-VariableFont_wght.ttf);
 }
 
 @font-face {
-  font-family: "JosefinSans";
+  font-family: 'JosefinSans';
   src: url(JosefinSans-VariableFont_wght.ttf);
 }
 
+@media screen and (min-width: 320px) {
+  h1 {
+    font-family: 'Jost';
+  }
 
-h1 {
-  font-family: "Jost";
+  h2 {
+    font-family: 'Jost';
+  }
+
+  p {
+    font-family: 'Jost';
+    size: 16px;
+    font-weight: light;
+  }
+
+  .container {
+    font-family: 'Jost';
+    font-size: 12px;
+  }
+
+  .countdown {
+    font-size: 40px;
+    font-weight: 100;
+  }
+
+  .info {
+    color: rgb(126, 126, 109);
+    font-weight: 200;
+  }
+
+  footer {
+    text-align: center;
+    font-family: 'Jost';
+  }
+
+  .wrapper {
+    font-family: 'Jost';
+    text-align: left;
+  }
+
+  .options {
+    font-family: 'Jost';
+    text-align: left;
+  }
 }
 
-h2 {
-  font-family: "Jost";
+@media screen and (min-width: 550px) {
+  .wrapper {
+    font-family: 'Jost';
+    text-align: left;
+  }
 }
 
-p {
-  font-family: "Jost";
-  size: 16px;
-  font-weight: light;
-}
-
-.countdown {
-  font-size: 40px;
-  font-weight: 100;
-}
-
-.info {
-  color: rgb(126, 126, 109);
-  font-weight: 200;
-}
-
-footer {
-  text-align: center;
-  font-family: "Jost";
+@media screen and (min-width: 1025px) {
+  .about-ichiban {
+    font-weight: light;
+    font-size: 16px;
+    text-align: left;
+  }
+  .wrapper {
+    font-family: 'Jost';
+    text-align: left;
+  }
 }

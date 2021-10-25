@@ -33,8 +33,6 @@ require __DIR__ . '/functions.php';
         <?php endforeach; ?>
 
 
-
-
     </main>
     <br>
     <br>
@@ -48,7 +46,10 @@ require __DIR__ . '/functions.php';
     <br>
     <br>
     <br>
-
+    <br>
+    <br>
+    <br>
+    <br>
     <br>
     <br>
     <br>
