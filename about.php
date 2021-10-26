@@ -21,7 +21,7 @@ require __DIR__ . '/header.php';
 
 
     <div class="image-parent">
-        <div class="image-child"><img src="images/bwstaff.jpeg"></class>
+        <div class="image-child"><img src="images/bwstaff.jpeg" alt="two men in the kitchen of the restraurant, the man "></class>
         </div>
     </div>
     <br>
@@ -29,7 +29,7 @@ require __DIR__ . '/header.php';
     <br>
     <div class="wrapper">
         <div id="block2">
-            We have a playful, yet respectful approach to Japanese cuisine with a lightness
+            We have a playful, yet respectful approach to traditional Japanese cuisine with a lightness
             of touch and inspired flavour combinations. The goal is to maintain the love and
             tradition of Japanese cooking while introducing new flavors and experiences for our visitors.
         </div>
@@ -39,8 +39,6 @@ require __DIR__ . '/header.php';
             to offer a small-scale space with an intimate, relaxed atmosphere.
         </div>
     </div>
-
-
 
 
 </body>

@@ -17,13 +17,3 @@ function openingHours(int $open, int $close): string
 $hours = openingHours(12, 01);
 
 /*printa sedan  <p><?php echo $hours; ?></p> */
-
-
-
-function dailyOffer(string $open, string $close): string
-{
-
-    return "We're open today from  $open - $close.";
-}
-
-$offer = openingHours(12, 01);

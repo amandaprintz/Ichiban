@@ -1,8 +1,6 @@
 <div class="footer">
 
 
-    <p> Opening hours <br>
-
 
 
 

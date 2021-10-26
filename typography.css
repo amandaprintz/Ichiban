@@ -58,6 +58,14 @@
     font-size: 40px;
     font-weight: 100;
   }
+
+  /*contact-page */
+
+  h2 {
+    font-family: 'Jost';
+    font-size: 30px;
+    font-weight: 100;
+  }
 }
 
 @media screen and (min-width: 550px) {
@@ -68,6 +76,14 @@
   /*menu-page */
   h1 {
     font-size: 40px;
+    font-weight: 100;
+  }
+
+  /*contact-page */
+
+  h2 {
+    font-family: 'Jost';
+    font-size: 30px;
     font-weight: 100;
   }
 }
@@ -87,6 +103,14 @@
 
   h1 {
     font-size: 40px;
+    font-weight: 100;
+  }
+
+  /*contact-page */
+
+  h2 {
+    font-family: 'Jost';
+    font-size: 30px;
     font-weight: 100;
   }
 }
