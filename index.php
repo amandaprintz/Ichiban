@@ -14,6 +14,7 @@ require __DIR__ . '/functions.php';
 
         <?php foreach ($articles as $article) :
             $image = $article['image'];
+            $imageAlt = $article['image-alt'];
             $info = $article['info'];
             $description = $article['description'];
         ?>
@@ -32,33 +33,20 @@ require __DIR__ . '/functions.php';
 
         <?php endforeach; ?>
 
+        <br>
+        <button>
+            book a table
+        </button>
 
     </main>
-    <br>
-    <br>
-    <br>
-    <br>
 
-    <button>
-        book a table
-    </button>
 
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+    <?php
+
+    require __DIR__ . '/footer.php';
+    ?>
+
 
 </body>
 
 </html>
-
-<?php
-
-require __DIR__ . '/footer.php';
-?>

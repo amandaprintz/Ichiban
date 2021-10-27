@@ -14,7 +14,7 @@ require __DIR__ . '/header.php';
     <link rel="stylesheet" href="nav.css">
     <link rel="stylesheet" href="typography.css">
 
-    <h1>opening weekend specials </h1>
+
 
 
     <div class="contact">
@@ -33,7 +33,6 @@ require __DIR__ . '/header.php';
             local ingredients, while incorporating signature Aburi (flame-seared)
             techniques throughout the dinner giving you a unique culinary experience. </p>
             <br>
-
 
         </div>
 
@@ -57,19 +56,20 @@ require __DIR__ . '/header.php';
 
         </div>
         <div id="contact3">
-            <h2> Kaiseki </h2>
-            The art of trust. With our Omakase menu the guests surrender into the hands
-            of the chef and receive a meal that is elegant, creative and made from the
-            best ingredients available for the season. The one who hands over the choice
-            to the chef is open-minded and adventurous. In return, you get an authentic
-            Japanese dining experience of premium quality.<br>
-            <br>
+            <h2> visit our family </h2><br>
+            <ul class="restaurants">
 
-            Our menu is centered right by the side of our chefs, letting guests
-            experience the showcase while our chef prepares the dinner. The food
-            will be given to our guests continuously during the evening to create
-            the closest view possible to our chefs, giving the most exclusive
-            experience of Japanese culinary .</p>
+                <p> Experience Ichiban Style cuisine and hospitality in stunning destinations around
+                    the globe. Contact us for reservations or inquiries about specific location.
+                </p>
+                <br>
 
+                <?php foreach ($restaurants as $restaurant) : ?>
+                    <li>
+                        <p> <?php echo "$restaurant"; ?></p>
+                    </li>
+                <?php endforeach; ?>
+
+            </ul>
 
         </div>

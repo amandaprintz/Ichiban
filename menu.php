@@ -17,8 +17,9 @@ require __DIR__ . '/functions.php';
 </head>
 
 <body>
-
-    <h1>opening weekend specials </h1>
+    <div class="specials">
+        <h1>opening weekend specials </h1>
+    </div>
 
 
     <div class="options">
