@@ -348,10 +348,13 @@ main {
   /*contact-page */
 
   .contact {
-    margin-top: 70px;
+    padding-top: 70px;
     display: flex;
-    /* margin: auto; */
+    margin: auto;
     max-width: fit-content;
+    justify-content: center;
+    align-content: center;
+
     /*The width you want it to be when centered*/
     /* min-width works too */
   }

@@ -2,18 +2,33 @@
 
 declare(strict_types=1);
 
+// function to easily change the menu-bar
+function menu($items): void
+{
+    foreach ($items as $item) {
+        $link = $item === 'home' ? 'index' : $item;
+        echo "<a href=" . $link . ".php>$item</a>";
+    }
+}
 
+$items = [
+    'menu',
+    'about',
+    'contact',
+    'home'
+];
+
+
+
+// function that will countdown to
 $d1 = strtotime("December 7");
 $d2 = ceil(($d1 - time()) / 60 / 60 / 24);
 
 
 
-function openingHours(int $open, int $close): string
+function days(string $from, string $to): string
 {
-
-    return "We're open today from  $open - $close.";
+    return " Open from $from - $to.";
 }
 
-$hours = openingHours(12, 01);
-
-/*printa sedan  <p><?php echo $hours; ?></p> */
+$openings = days('Tuesday', 'Sunday');

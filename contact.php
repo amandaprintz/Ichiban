@@ -40,19 +40,28 @@ require __DIR__ . '/header.php';
 
         <div id="contact2">
             <h2> Kaiseki </h2>
-            The art of trust. With our Omakase menu the guests surrender into the hands
-            of the chef and receive a meal that is elegant, creative and made from the
-            best ingredients available for the season. The one who hands over the choice
-            to the chef is open-minded and adventurous. In return, you get an authentic
-            Japanese dining experience of premium quality.<br>
-            <br>
+            <ul>
+                <li>
+                    <p><?php echo $openings; ?></p>
 
-            Our menu is centered right by the side of our chefs, letting guests
-            experience the showcase while our chef prepares the dinner. The food
-            will be given to our guests continuously during the evening to create
-            the closest view possible to our chefs, giving the most exclusive
-            experience of Japanese culinary .</p>
 
+                    <p>
+
+                        The art of trust. With our Omakase menu the guests surrender into the hands
+                        of the chef and receive a meal that is elegant, creative and made from the
+                        best ingredients available for the season. The one who hands over the choice
+                        to the chef is open-minded and adventurous. In return, you get an authentic
+                        Japanese dining experience of premium quality.<br>
+                        <br>
+
+                        Our menu is centered right by the side of our chefs, letting guests
+                        experience the showcase while our chef prepares the dinner. The food
+                        will be given to our guests continuously during the evening to create
+                        the closest view possible to our chefs, giving the most exclusive
+                        experience of Japanese culinary .
+                    </p>
+                </li>
+            </ul>
 
         </div>
         <div id="contact3">
