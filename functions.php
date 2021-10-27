@@ -25,7 +25,7 @@ $d1 = strtotime("December 7");
 $d2 = ceil(($d1 - time()) / 60 / 60 / 24);
 
 
-
+//open from - function
 function days(string $from, string $to): string
 {
     return " Open from $from - $to.";

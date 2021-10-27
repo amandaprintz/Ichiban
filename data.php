@@ -19,7 +19,7 @@ $articles = [
         'image' => "/images/chef.jpeg",
         'image-alt' => "a chef cooking Japanese food",
         'info' => '❍',
-        'description' => 'The best Japanese culinary '
+        'description' => 'the best Japanese culinary '
     ],
     [
         'image' => "/images/matcha.jpeg",

@@ -1,6 +1,6 @@
 <img src="https://media.giphy.com/media/tKkJrjL0ghnX2lpIsM/giphy-downsized.gif">
 
-# Project Title 
+# Project Title
 
 Text about the project and why it exists. This would also be a great place to link the project on One.com.
 
