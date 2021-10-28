@@ -32,7 +32,7 @@ $articles = [
 
 
 $restaurants = [
-    'Ichiban Spa Resort Dining, Dubai',
+    'Ichiban Spa Resort, Dubai',
     'Ichiban Unique, Paris',
     'Ichiban Crown Palace, London',
     'Ichiban SoHo, New York',
