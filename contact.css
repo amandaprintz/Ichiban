@@ -1,0 +1,80 @@
+/* THIS CSS-CODE IS MADE FOR STRICTLY CONTACT-PAGE */
+
+@media screen and (min-width: 320px) {
+  .contact {
+    margin-top: 200px;
+  }
+
+  .restaurants {
+    text-align: left;
+  }
+}
+
+@media screen and (min-width: 550px) {
+  /*contact-page */
+  .contact {
+    padding-top: 70px;
+    display: flex;
+    margin: auto;
+    max-width: fit-content;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+
+    /* justify-content: center;
+    flex-direction: row;
+    display: inline-block;
+    grid-template-columns: repeat(2, 1fr);
+ */
+    /*The width you want it to be when centered*/
+    /* min-width works too */
+  }
+
+  #contact1,
+  #contact2,
+  #contact3 {
+    background-color: rgb(243, 243, 233);
+    margin: 10px 20px;
+    padding: 20px;
+    width: 100%;
+  }
+
+  #contact1 ul li,
+  #contact2 ul li,
+  #contact3 ul li {
+    list-style: none;
+    text-align: start;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .contact {
+    padding-top: 70px;
+    display: flex;
+    margin: auto;
+    max-width: fit-content;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+
+    /*The width you want it to be when centered*/
+    /* min-width works too */
+  }
+
+  #contact1,
+  #contact2,
+  #contact3 {
+    background-color: rgb(243, 243, 233);
+    /*  margin: 10px 20px; */
+    padding: 20px;
+    max-width: 400px;
+    float: right;
+  }
+
+  #contact3 ul li,
+  #contact2 ul li,
+  #contact1 ul li {
+    list-style: none;
+    text-align: start;
+  }
+}

@@ -11,6 +11,7 @@ require __DIR__ . '/header.php';
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="about.css">
     <link rel="stylesheet" href="nav.css">
     <link rel="stylesheet" href="typography.css">
     <title>About ICHIBAN</title>
