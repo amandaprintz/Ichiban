@@ -2,7 +2,7 @@
 
 # Project Title
 
-Text about the project and why it exists. This would also be a great place to link the project on One.com.
+The aim of this project is to make use of all the PHP fundamentals I've learned so far, such as using variables, data types, loops, functions and etc. The idea for this project was to create a fictional gallery website that showcases some fine art. Check out the live website here.
 
 # Installation
 

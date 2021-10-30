@@ -1,0 +1,37 @@
+/* THIS CODE IS MADE FOR MENU-PAGE */
+
+@media screen and (min-width: 320px) {
+  .specials {
+    margin-top: 70px;
+  }
+
+  .options {
+    margin: auto;
+    max-width: fit-content;
+  }
+
+  #option1,
+  #option2 {
+    background-color: rgb(243, 243, 233);
+    margin: 10px 20px;
+    padding: 20px;
+    max-width: 100%;
+  }
+}
+
+@media screen and (min-width: 550px) {
+  .options {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+
+  #option1,
+  #option2 {
+    max-width: 400px;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  /* same CSS as in media screen 550px  */
+}
