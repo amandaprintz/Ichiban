@@ -1,12 +1,17 @@
-<img src="https://media.giphy.com/media/tKkJrjL0ghnX2lpIsM/giphy-downsized.gif">
+<img src="https://media.giphy.com/media/dk55DwPBCDRQFEEvQT/giphy.gif">
 
 # Project Title
 
-The aim of this project is to make use of all the PHP fundamentals I've learned so far, such as using variables, data types, loops, functions and etc. The idea for this project was to create a fictional gallery website that showcases some fine art. Check out the live website here.
+The aim of this project is to use of PHP fundamentals we've learned by using variables, data types, loops, functions etc. The idea for this project was to create a fictional restaurant that is about to open in central London.
 
 # Installation
 
-Add the installation instructions.
+Clone this repo to your chosen folder.
+
+```
+   git clone - add link -
+
+```
 
 # Code Review
 
