@@ -1,12 +1,12 @@
 <img src="https://media.giphy.com/media/3og0IxeB7Hx7JBnhmM/giphy.gif">
 
-# Project Title
+# Ichiban Japanese Restaurant
 
 The aim of this project is to use of PHP fundamentals we've learned by using variables, data types, loops, functions etc. The idea for this project was to create a fictional restaurant that is about to open in central London.
 
 # Installation
 
-Clone this repo to your chosen folder.
+<b>Clone this repo to your chosen folder.</b>
 
 ```
    git clone - add link -
