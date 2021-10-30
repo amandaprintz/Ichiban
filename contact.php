@@ -14,7 +14,9 @@ require __DIR__ . '/header.php';
     <link rel="stylesheet" href="typography.css">
     <link rel="stylesheet" href="contact.css">
 
+</head>
 
+<body>
 
 
     <div class="contact">
@@ -79,3 +81,12 @@ require __DIR__ . '/header.php';
             </ul>
 
         </div>
+
+
+        <?php
+
+        require __DIR__ . '/footer.php';
+        ?>
+
+
+</body>

@@ -116,6 +116,13 @@ require __DIR__ . '/header.php';
         </div>
 
 
+        <?php
+
+        require __DIR__ . '/footer.php';
+        ?>
+
+
+
 </body>
 
 </html>

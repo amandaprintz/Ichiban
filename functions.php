@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-// function to easily change the menu-bar
+// function for menu-bar
 function menu($items): void
 {
     foreach ($items as $item) {
@@ -25,7 +25,7 @@ $d1 = strtotime("December 7");
 $d2 = ceil(($d1 - time()) / 60 / 60 / 24);
 
 
-//open from - function
+//opening days function
 function days(string $from, string $to): string
 {
     return " Open from $from - $to.";

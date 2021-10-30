@@ -14,16 +14,10 @@
   }
 
   .wrapper {
-    /* margin: auto; */
     max-width: fit-content;
   }
 
-  #block1 {
-    background-color: rgb(243, 243, 233);
-    margin: 10px 20px;
-    padding: 20px;
-    max-width: 100%;
-  }
+  #block1,
   #block2 {
     background-color: rgb(243, 243, 233);
     margin: 10px 20px;
@@ -33,82 +27,30 @@
 }
 
 @media screen and (min-width: 550px) {
-  .image-parent {
-    display: flex;
-    justify-content: center;
-    justify-self: center;
-  }
-
   .image-parent img {
-    display: flex;
-    width: 100%;
     max-width: 600px;
-    padding-top: 30px;
-  }
-  .about-parent {
-    display: flex;
-    justify-content: center;
-    justify-self: center;
-  }
-
-  .about-ichiban {
-    max-width: 300px;
   }
 
   .wrapper {
     margin: auto;
-    max-width: fit-content;
     display: flex;
     justify-content: center;
     justify-self: center;
   }
 
-  #block1 {
-    margin: 10px 20px;
-    padding: 20px;
-    max-width: 250px;
-    float: right;
-  }
+  #block1,
   #block2 {
-    margin: 10px 20px;
-    padding: 20px;
     max-width: 250px;
-    float: right;
   }
 }
 
 @media screen and (min-width: 1025px) {
-  /*about-page */
   .image-parent {
-    margin-top: 80px;
-    display: flex;
-    justify-content: center;
-    justify-self: center;
+    margin-top: 60px;
   }
 
-  .image-parent img {
-    display: flex;
-    width: 100%;
-    max-width: 600px;
-    padding-top: 20px;
-  }
-
-  .wrapper {
-    margin: auto;
-    max-width: fit-content; /*The width you want it to be when centered*/
-    /* min-width works too */
-  }
-
-  #block1 {
-    margin: 10px 20px;
-    padding: 20px;
-    max-width: 400px;
-    float: right;
-  }
+  #block1,
   #block2 {
-    margin: 10px 20px;
-    padding: 20px;
     max-width: 400px;
-    float: right;
   }
 }

@@ -23,7 +23,6 @@
   a {
     color: #443434;
     font-family: 'Jost';
-    font-weight: light;
     font-size: 14px;
     text-decoration: none;
     text-transform: lowercase;
@@ -33,66 +32,18 @@
 }
 
 @media screen and (min-width: 550px) {
-  .header {
-    text-align: center;
-    align-items: left;
-    color: rgb(45, 32, 32);
-  }
-
   .header-image {
-    text-align: center;
-    align-items: center;
-    color: rgb(45, 32, 32);
     float: left;
   }
 
-  nav {
-    background-color: white;
-    font-size: 8px;
-    padding-right: 40px;
-    padding-left: 40px;
-    overflow-x: hidden;
-    color: #443434;
-  }
-
   a {
-    color: #443434;
-    font-family: 'Jost';
     font-weight: 100;
     font-size: 30px;
-    text-decoration: none;
-    text-transform: lowercase;
-    float: right;
-    padding: 0.5em;
-  }
-
-  a :hover {
-    text-decoration: underline;
   }
 }
 
 @media screen and (min-width: 1025px) {
-  .header-image {
-    justify-content: center;
-    color: rgb(45, 32, 32);
-    float: left;
-  }
-
-  nav {
-    background-color: white;
-    overflow-x: hidden;
-    color: #443434;
-    width: 100%;
-  }
-
   a {
-    color: #443434;
-    font-family: 'Jost';
-    font-weight: 100;
     font-size: 35px;
-    text-decoration: none;
-    text-transform: lowercase;
-    float: right;
-    padding: 0.5em;
   }
 }

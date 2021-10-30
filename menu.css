@@ -10,96 +10,28 @@
     max-width: fit-content;
   }
 
-  #option1 {
-    background-color: rgb(243, 243, 233);
-    margin: 10px 20px;
-    padding: 20px;
-    max-width: 100%;
-    float: right;
-  }
-
+  #option1,
   #option2 {
     background-color: rgb(243, 243, 233);
     margin: 10px 20px;
     padding: 20px;
     max-width: 100%;
-    float: right;
   }
 }
 
 @media screen and (min-width: 550px) {
   .options {
     display: flex;
-    margin: auto;
-    max-width: fit-content;
     justify-content: center;
     align-content: center;
   }
 
-  #option1 {
-    margin: 10px 20px;
-    padding: 20px;
-    max-width: 500px;
-    float: right;
-  }
-
-  #price1 {
-    margin: 10px 20px;
-    padding: 20px;
-    max-width: 500px;
-    float: right;
-  }
-
+  #option1,
   #option2 {
-    margin: 10px 20px;
-    padding: 20px;
-    max-width: 500px;
-    float: right;
-  }
-
-  #price2 {
-    margin: 10px 20px;
-    padding: 20px;
-    max-width: 500px;
-    float: right;
+    max-width: 400px;
   }
 }
 
 @media screen and (min-width: 1025px) {
-  /*menu-page */
-
-  .options {
-    margin: auto;
-    max-width: fit-content;
-    /*The width you want it to be when centered*/
-    /* min-width works too */
-  }
-
-  #option1 {
-    margin: 10px 20px;
-    padding: 20px;
-    max-width: 400px;
-    float: right;
-  }
-
-  #price1 {
-    margin: 10px 20px;
-    padding: 20px;
-    max-width: 400px;
-    float: right;
-  }
-
-  #option2 {
-    margin: 10px 20px;
-    padding: 20px;
-    max-width: 400px;
-    float: right;
-  }
-
-  #price2 {
-    margin: 10px 20px;
-    padding: 20px;
-    max-width: 400px;
-    float: right;
-  }
+  /* same CSS as in media screen 550px  */
 }

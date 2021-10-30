@@ -1,4 +1,11 @@
 @media screen and (min-width: 320px) {
+  .countdown {
+    font-size: 30px;
+    font-weight: 100;
+    margin-top: 70px;
+    margin-bottom: 40px;
+  }
+
   .container {
     display: flex;
     justify-content: center;
@@ -24,78 +31,22 @@
     width: 200px;
     height: 70px;
   }
-
-  nav {
-    background-color: white;
-    width: 100%;
-    overflow-x: hidden;
-    color: #443434;
-  }
-
-  .footer {
-    width: 100%;
-    height: 70px;
-    overflow-x: hidden;
-    color: #443434;
-  }
 }
 
 @media screen and (min-width: 550px) {
-  .container {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    display: inline-block;
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  .container img {
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
+  .countdown {
+    font-size: 50px;
   }
 
   button {
-    background-color: #443434;
-    border: 0.5px solid;
-    font-family: 'Jost';
-    font-size: 27px;
-    color: white;
-    font-weight: 100;
     width: 380px;
     height: 70px;
   }
 }
 
 @media screen and (min-width: 1025px) {
-  .container {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    display: inline-block;
-    grid-template-columns: repeat(2, 1fr);
-  }
-
   .container img {
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
-  }
-
-  button {
-    background-color: #443434;
-    border: 0.5px solid;
-    font-family: 'Jost';
-    font-size: 27px;
-    color: white;
-    font-weight: 100;
-    width: 380px;
-    height: 70px;
-  }
-
-  .footer {
-    width: 100%;
-    justify-content: center;
-    justify-self: center;
+    width: 300px;
+    height: 300px;
   }
 }
