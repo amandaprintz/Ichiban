@@ -41,6 +41,7 @@
   #block1,
   #block2 {
     max-width: 250px;
+    margin-bottom: 150px;
   }
   .footer {
     display: flex;
@@ -56,7 +57,7 @@
 
 @media screen and (min-width: 1025px) {
   .image-parent {
-    margin-top: 60px;
+    margin-top: 200px;
   }
 
   #block1,
