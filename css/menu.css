@@ -30,6 +30,16 @@
   #option2 {
     max-width: 400px;
   }
+
+  .footer {
+    display: flex;
+    justify-content: center;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+  }
 }
 
 @media screen and (min-width: 1025px) {

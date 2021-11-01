@@ -48,18 +48,6 @@ require_once __DIR__ . '/functions.php';
     </div>
 </nav>
 
-<!-- <nav>
-    <ul>
-        <a href="http://localhost:8000/index.php">home</a>
-        <a href="http://localhost:8000/index.php">contact</a>
-        <a href="http://localhost:8000/about.php">about</a>
-        <a href="http://localhost:8000/menu.php">menu</a>
-    </ul>
-
-    <div class='header-image'><img src="images/logo.jpg"></div>
-    </a>
-</nav> -->
-
 
 
 <div class="header">

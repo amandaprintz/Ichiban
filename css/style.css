@@ -8,10 +8,14 @@
 body {
   background-color: #f5f5ee;
   margin: 0;
+  position: relative;
+  min-height: 100vh;
 }
 
 main {
-  min-height: calc(100vh - 176px);
+  min-height: 70vh;
+  /*   min-height: calc(100vh - 176px);
+ */
 }
 
 @media screen and (min-width: 320px) {
@@ -25,8 +29,6 @@ main {
 }
 
 @media screen and (min-width: 550px) {
-  /* footer applies to all except contact-page & about page */
-
   .footer {
     display: flex;
     justify-content: center;
@@ -39,11 +41,9 @@ main {
 }
 
 @media screen and (min-width: 1025px) {
-  /* footer applies to all except contact-page */
-
   .footer {
     width: 100%;
-    position: absolute;
+    position: relative;
     bottom: 0;
     height: 2.5rem;
   }
