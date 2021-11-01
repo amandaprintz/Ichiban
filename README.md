@@ -2,7 +2,7 @@
 
 # Ichiban Japanese Restaurant
 
-The aim of this project is to use of PHP fundamentals we've learned by using variables, data types, loops, functions etc. The idea for this project was to create a fictional restaurant that is about to open in central London. This website is to launch information about the place and get guests interested before opening. 
+The aim of this project is to use of PHP fundamentals we've learned by using variables, data types, loops, functions etc. The idea for this project was to create a fictional restaurant that is about to open in central London. This website is to launch information about the place and get guests interested before opening.  
 
 # Installation
 
@@ -27,5 +27,5 @@ Code review written by [Jane Doh](https://github.com/username).
 
 Tested by the following people:
 
-1. Jane Doe
+1. Johanna Jönsson
 2. John Doe
