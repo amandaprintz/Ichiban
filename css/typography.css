@@ -11,7 +11,7 @@
 @media screen and (min-width: 320px) {
   h1 {
     font-family: 'Jost';
-    font-weight: light;
+    font-weight: 100;
   }
 
   h2 {
@@ -21,7 +21,7 @@
   p {
     font-family: 'Jost';
     size: 16px;
-    font-weight: light;
+    font-weight: regular;
   }
 
   .container {
@@ -52,7 +52,7 @@
   /*menu-page */
   h1 {
     font-size: 40px;
-    font-weight: 100;
+    font-weight: light;
   }
 
   /*contact-page */
