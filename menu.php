@@ -17,6 +17,8 @@ require __DIR__ . '/header.php';
 </head>
 
 <body>
+
+
     <div class="specials">
         <h1>opening weekend specials </h1>
     </div>

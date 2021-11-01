@@ -42,6 +42,16 @@
   #block2 {
     max-width: 250px;
   }
+  .footer {
+    display: flex;
+    justify-content: center;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    margin-top: 100px;
+  }
 }
 
 @media screen and (min-width: 1025px) {
