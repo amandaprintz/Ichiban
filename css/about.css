@@ -41,7 +41,7 @@
   #block1,
   #block2 {
     max-width: 250px;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
   }
   .footer {
     display: flex;
