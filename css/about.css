@@ -10,7 +10,7 @@
   .image-parent img {
     display: flex;
     width: 100%;
-    padding-top: 30px;
+    padding-top: 10px;
   }
 
   .wrapper {
@@ -57,7 +57,7 @@
 
 @media screen and (min-width: 1025px) {
   .image-parent {
-    margin-top: 200px;
+    margin-top: 100px;
   }
 
   #block1,

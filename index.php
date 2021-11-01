@@ -44,6 +44,7 @@ require __DIR__ . '/header.php';
         <?php endforeach; ?>
 
         <br>
+        <!--    not linked to a booking page since this restaurant doesnt exist.  -->
         <button>
             book a table
         </button>
