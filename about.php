@@ -10,10 +10,10 @@ require __DIR__ . '/header.php';
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="/css/about.css">
-    <link rel="stylesheet" href="/css/nav.css">
-    <link rel="stylesheet" href="/css/typography.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/typography.css">
     <title>About ICHIBAN</title>
 
 </head>
@@ -42,13 +42,13 @@ require __DIR__ . '/header.php';
         </div>
     </main>
 
+
+
     <?php
 
     require __DIR__ . '/footer.php';
 
     ?>
-
-
 
 </body>
 
