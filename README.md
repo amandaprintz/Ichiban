@@ -33,17 +33,17 @@ Install this project by following these steps:
  ```
  
 
- 
- 
+
 # Code Review
 
-Code review written by [Jane Doh](https://github.com/username).
+Code review written by [Sophie Wulff](https://github.com/sowulff).
 
-1. `example.js:10-15` - Remember to think about X and this could be refactored using the amazing Y function.
-2. `example.js:10-15` - Remember to think about X and this could be refactored using the amazing Y function.
-3. `example.js:10-15` - Remember to think about X and this could be refactored using the amazing Y function.
-4. `example.js:10-15` - Remember to think about X and this could be refactored using the amazing Y function.
-5. `example.js:10-15` - Remember to think about X and this could be refactored using the amazing Y function.
+1. index.php:1-16 - When header.php is required, there is no need for HTML emmet.
+2. contact.php:1-16 - See as above, No need for HTML emmet.
+3. about.php:1-16 - See as above, No need for HTML emmet.
+4. data.php:5-30 - Since 'info' is the same everywhere, it could have been made into a variable.
+5. menu.php:3 - data.php is required in this file but not being used.
+6. menu.php:96-114 - instead of writing the same if statement for each menu-item, maybe a function could make the code more DRY.
 
 # Testers
 
