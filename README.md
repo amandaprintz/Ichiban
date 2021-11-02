@@ -1,18 +1,40 @@
-<img src="https://media.giphy.com/media/3og0IxeB7Hx7JBnhmM/giphy.gif">
+<img src="https://media.giphy.com/media/3og0IxeB7Hx7JBnhmM/giphy.gif" width=100%>
 
 # Ichiban Japanese Restaurant
 
-The aim of this project is to use of PHP fundamentals we've learned by using variables, data types, loops, functions etc. The idea for this project was to create a fictional restaurant that is about to open in central London. This website is to launch information about the place and get guests interested before opening.  
+The aim of this project is to use of PHP fundamentals we've learned by using variables, data types, loops, functions etc. The idea for this project was to create a fictional restaurant that is about to open in central London. This website is to launch information about the place and get guests interested before opening.
+
 
 # Installation
 
-<b>Clone this repo to your chosen folder.</b>
+Install this project by following these steps:
 
-```
-   git clone - add link -
+<b> Clone the repository from this address: </b>
+   
+  ```
+  https://github.com/amandaprintz/ichiban.git
+  
+  ```
 
-```
+<br>
+<b> In the project's root folder, start a php server by typing this in your terminal: </b>
 
+
+  ```
+  php -S localhost:8000
+  ```
+  
+  <br>
+<b> Open up your browser and paste this URL in the address bar: </b>
+
+
+ ```
+ https://localhost:8000
+ ```
+ 
+
+ 
+ 
 # Code Review
 
 Code review written by [Jane Doh](https://github.com/username).
@@ -28,4 +50,4 @@ Code review written by [Jane Doh](https://github.com/username).
 Tested by the following people:
 
 1. Johanna Jönsson
-2. John Doe
+2. Hanna Rosenberg
