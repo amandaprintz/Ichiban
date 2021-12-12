@@ -21,7 +21,7 @@ $items = [
 
 
 // function that will countdown to opening day
-$d1 = strtotime("December 31");
+$d1 = strtotime("December 1");
 $d2 = ceil(($d1 - time()) / 60 / 60 / 24);
 
 
